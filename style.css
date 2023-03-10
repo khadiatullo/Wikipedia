@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+span {
+    font-style: italic;
+}
+.babak{
+    font-weight: 1000;
+    font-size: 2ch;
+
+}
+div {
+    text-indent: 25px;
+    }
+
+.khadi{
+    font-weight: 600;
+    font-size: 2ch;
+    text-indent: 90px;
+}
+
+
+.lol{
+    font-size: 15px;
+    color: black; 
+    margin-bottom: 30px ;
+   
+}
+
+h1{
+    margin-bottom: 0.5px;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+}
+
+h2{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+}
+
+.frame{
+    border-style: solid;
+    display: inline-block;
+}
+
+.not{
+    list-style: none;
+}
+
+.frame>ol{
+    margin-right: 3px;
+}
+
+.frame>p{
+    text-align:center ;
+    margin-right: 26px;
+    font-weight: 900;
+} 
+
+
+
+a{
+    text-decoration: none;
+}
+
+/*  Таблица */
+
+ table{
+    font-family:sans-serif ;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 6px;
+    background: bisque;
+    color: rgb(236, 236, 236);
+    border-radius: 20px;
+    border: 2px solid;
+}
+ 
+
+tr{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+ }
+ 
+
+
+caption{
+    background-color: rgb(87, 226, 254);
+    border-radius: 20px;
+    color: rgb(97, 7, 149);
+    font-weight: 600;
+}
+.red{
+    background-color: azure;
+    color: rgb(255, 0, 0);
+}
+
+.blue{
+    background-color: azure;
+    color: rgb(46, 143, 208);
+}
+.size{
+    background-color: azure;
+    color: rgb(0, 176, 6);
+}
+
+
+.babakulov{
+    margin-top: 100px;
+    text-align: right;
+}
+
+/* Картина */
+
+.img-cont{
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    max-width: 300px;
+}
+
+.img-cont>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.imger{
+    max-width: 300px;
+    margin-top: 5px;
+}
+
+.img-h3{
+    text-align: center;
+    background-color: rgb(161, 195, 234);
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.img-cont>div>p{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* Навигационная панель */
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 228, 255);
+}
+
+.nav-cont>nav>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-cont>nav>ul>li>a{
+    display: block;
+    padding: 12px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    color: black;
+    
+}
+
+/* Боковая нав.панель */
+
+.selections{
+    padding-left: 14px ;
+}
+
+.mains{
+    display: flex;
+    justify-content: center;
+}
+
+.sides{
+    width: 13%;
+    background-color:rgb(198, 207, 207) ;
+}
+
+.alls{
+    width: 86%;
+}
+
+.sides>ul{
+    display: inline;
+    font-size: 14px;
+    
+}
+
+.trait{
+    border-bottom-style: solid;
+    border-color: rgb(171, 171, 171);
+    font-weight: 900;
+    color: rgb(104, 104, 104);
+}
+
+.sides>img{
+    max-width: 130px;
+}
+
+
+
+
+ 
+
+
+
