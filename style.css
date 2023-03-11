@@ -206,10 +206,13 @@ caption{
     color: rgb(104, 104, 104);
 }
 
-.sides>img{
-    max-width: 130px;
+.sides>div{
+    width: 70%;
 }
 
+.sides>div>img{
+    width: 100%;
+}
 
 
 
